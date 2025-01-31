@@ -1,5 +1,6 @@
 import Foundation
 
+@Observable
 class Counter {
     var lowerBound: Int
     var upperBound: Int
