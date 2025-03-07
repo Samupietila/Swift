@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		C993AF8D2D7AF8FB00FB65BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C993AF742D7AF8F900FB65BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C993AF7B2D7AF8F900FB65BB;
+			remoteInfo = EduskuntaMapKit;
+		};
+		C993AF972D7AF8FB00FB65BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C993AF742D7AF8F900FB65BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C993AF7B2D7AF8F900FB65BB;
+			remoteInfo = EduskuntaMapKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C993AF7C2D7AF8F900FB65BB /* EduskuntaMapKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EduskuntaMapKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C993AF8C2D7AF8FB00FB65BB /* EduskuntaMapKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EduskuntaMapKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C993AF962D7AF8FB00FB65BB /* EduskuntaMapKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EduskuntaMapKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C993AF7E2D7AF8F900FB65BB /* EduskuntaMapKit */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = EduskuntaMapKit;
+			sourceTree = "<group>";
+		};
+		C993AF8F2D7AF8FB00FB65BB /* EduskuntaMapKitTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = EduskuntaMapKitTests;
+			sourceTree = "<group>";
+		};
+		C993AF992D7AF8FB00FB65BB /* EduskuntaMapKitUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = EduskuntaMapKitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C993AF792D7AF8F900FB65BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C993AF892D7AF8FB00FB65BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C993AF932D7AF8FB00FB65BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C993AF732D7AF8F900FB65BB = {
+			isa = PBXGroup;
+			children = (
+				C993AF7E2D7AF8F900FB65BB /* EduskuntaMapKit */,
+				C993AF8F2D7AF8FB00FB65BB /* EduskuntaMapKitTests */,
+				C993AF992D7AF8FB00FB65BB /* EduskuntaMapKitUITests */,
+				C993AF7D2D7AF8F900FB65BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C993AF7D2D7AF8F900FB65BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C993AF7C2D7AF8F900FB65BB /* EduskuntaMapKit.app */,
+				C993AF8C2D7AF8FB00FB65BB /* EduskuntaMapKitTests.xctest */,
+				C993AF962D7AF8FB00FB65BB /* EduskuntaMapKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C993AF7B2D7AF8F900FB65BB /* EduskuntaMapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C993AFA02D7AF8FB00FB65BB /* Build configuration list for PBXNativeTarget "EduskuntaMapKit" */;
+			buildPhases = (
+				C993AF782D7AF8F900FB65BB /* Sources */,
+				C993AF792D7AF8F900FB65BB /* Frameworks */,
+				C993AF7A2D7AF8F900FB65BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C993AF7E2D7AF8F900FB65BB /* EduskuntaMapKit */,
+			);
+			name = EduskuntaMapKit;
+			packageProductDependencies = (
+			);
+			productName = EduskuntaMapKit;
+			productReference = C993AF7C2D7AF8F900FB65BB /* EduskuntaMapKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C993AF8B2D7AF8FB00FB65BB /* EduskuntaMapKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C993AFA32D7AF8FB00FB65BB /* Build configuration list for PBXNativeTarget "EduskuntaMapKitTests" */;
+			buildPhases = (
+				C993AF882D7AF8FB00FB65BB /* Sources */,
+				C993AF892D7AF8FB00FB65BB /* Frameworks */,
+				C993AF8A2D7AF8FB00FB65BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C993AF8E2D7AF8FB00FB65BB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C993AF8F2D7AF8FB00FB65BB /* EduskuntaMapKitTests */,
+			);
+			name = EduskuntaMapKitTests;
+			packageProductDependencies = (
+			);
+			productName = EduskuntaMapKitTests;
+			productReference = C993AF8C2D7AF8FB00FB65BB /* EduskuntaMapKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C993AF952D7AF8FB00FB65BB /* EduskuntaMapKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C993AFA62D7AF8FB00FB65BB /* Build configuration list for PBXNativeTarget "EduskuntaMapKitUITests" */;
+			buildPhases = (
+				C993AF922D7AF8FB00FB65BB /* Sources */,
+				C993AF932D7AF8FB00FB65BB /* Frameworks */,
+				C993AF942D7AF8FB00FB65BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C993AF982D7AF8FB00FB65BB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C993AF992D7AF8FB00FB65BB /* EduskuntaMapKitUITests */,
+			);
+			name = EduskuntaMapKitUITests;
+			packageProductDependencies = (
+			);
+			productName = EduskuntaMapKitUITests;
+			productReference = C993AF962D7AF8FB00FB65BB /* EduskuntaMapKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C993AF742D7AF8F900FB65BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					C993AF7B2D7AF8F900FB65BB = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					C993AF8B2D7AF8FB00FB65BB = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = C993AF7B2D7AF8F900FB65BB;
+					};
+					C993AF952D7AF8FB00FB65BB = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = C993AF7B2D7AF8F900FB65BB;
+					};
+				};
+			};
+			buildConfigurationList = C993AF772D7AF8F900FB65BB /* Build configuration list for PBXProject "EduskuntaMapKit" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C993AF732D7AF8F900FB65BB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C993AF7D2D7AF8F900FB65BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C993AF7B2D7AF8F900FB65BB /* EduskuntaMapKit */,
+				C993AF8B2D7AF8FB00FB65BB /* EduskuntaMapKitTests */,
+				C993AF952D7AF8FB00FB65BB /* EduskuntaMapKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C993AF7A2D7AF8F900FB65BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C993AF8A2D7AF8FB00FB65BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C993AF942D7AF8FB00FB65BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C993AF782D7AF8F900FB65BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C993AF882D7AF8FB00FB65BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C993AF922D7AF8FB00FB65BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C993AF8E2D7AF8FB00FB65BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C993AF7B2D7AF8F900FB65BB /* EduskuntaMapKit */;
+			targetProxy = C993AF8D2D7AF8FB00FB65BB /* PBXContainerItemProxy */;
+		};
+		C993AF982D7AF8FB00FB65BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C993AF7B2D7AF8F900FB65BB /* EduskuntaMapKit */;
+			targetProxy = C993AF972D7AF8FB00FB65BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C993AF9E2D7AF8FB00FB65BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C993AF9F2D7AF8FB00FB65BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C993AFA12D7AF8FB00FB65BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EduskuntaMapKit/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Samu.EduskuntaMapKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C993AFA22D7AF8FB00FB65BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EduskuntaMapKit/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Samu.EduskuntaMapKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C993AFA42D7AF8FB00FB65BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Samu.EduskuntaMapKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EduskuntaMapKit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EduskuntaMapKit";
+			};
+			name = Debug;
+		};
+		C993AFA52D7AF8FB00FB65BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Samu.EduskuntaMapKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EduskuntaMapKit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EduskuntaMapKit";
+			};
+			name = Release;
+		};
+		C993AFA72D7AF8FB00FB65BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Samu.EduskuntaMapKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EduskuntaMapKit;
+			};
+			name = Debug;
+		};
+		C993AFA82D7AF8FB00FB65BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Samu.EduskuntaMapKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EduskuntaMapKit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C993AF772D7AF8F900FB65BB /* Build configuration list for PBXProject "EduskuntaMapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C993AF9E2D7AF8FB00FB65BB /* Debug */,
+				C993AF9F2D7AF8FB00FB65BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C993AFA02D7AF8FB00FB65BB /* Build configuration list for PBXNativeTarget "EduskuntaMapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C993AFA12D7AF8FB00FB65BB /* Debug */,
+				C993AFA22D7AF8FB00FB65BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C993AFA32D7AF8FB00FB65BB /* Build configuration list for PBXNativeTarget "EduskuntaMapKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C993AFA42D7AF8FB00FB65BB /* Debug */,
+				C993AFA52D7AF8FB00FB65BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C993AFA62D7AF8FB00FB65BB /* Build configuration list for PBXNativeTarget "EduskuntaMapKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C993AFA72D7AF8FB00FB65BB /* Debug */,
+				C993AFA82D7AF8FB00FB65BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C993AF742D7AF8F900FB65BB /* Project object */;
+}
